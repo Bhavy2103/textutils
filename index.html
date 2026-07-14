@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Changer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Text Changer</h1>
+
+    <textarea id="text" placeholder="Enter your text..."></textarea>
+
+    <div class="buttons">
+        <button onclick="upperCase()">UPPERCASE</button>
+        <button onclick="lowerCase()">lowercase</button>
+        <button onclick="capitalizeText()">Capitalize</button>
+        <button onclick="clearText()">Clear</button>
+    </div>
+
+    <p>Words: <span id="words">0</span></p>
+    <p>Characters: <span id="chars">0</span></p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
