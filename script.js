@@ -67,6 +67,25 @@ function bold() {
     updateCount();
 }
 
+function Dark() {
+    if (text.style.backgroundColor === "black") {
+        text.style.backgroundColor = "white"
+        text.style.color = "black"
+        dark.innerText="Light"
+    }
+    else {
+        text.style.backgroundColor = "black"
+        text.style.color = "white";
+        dark.innerText = "Dark"
+    }
+}
+
+
+
+function Light() {
+
+}
+
 
 
 function capitalizeText() {
