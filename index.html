@@ -1,30 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Text Changer</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<div class="container">
-    <h1>Text Changer</h1>
+    <div class="container">
+        <h1>Text Changer</h1>
 
-    <textarea id="text" placeholder="Enter your text..."></textarea>
+        <textarea id="text" placeholder="Enter your text..."></textarea>
 
-    <div class="buttons">
-        <button onclick="upperCase()">UPPERCASE</button>
-        <button onclick="lowerCase()">lowercase</button>
-        <button onclick="capitalizeText()">Capitalize</button>
-        <button onclick="clearText()">Clear</button>
+        <div class="buttons">
+            <button onclick="upperCase()">UPPERCASE</button>
+            <button onclick="lowerCase()">lowercase</button>
+            <button onclick="capitalizeText()">Capitalize</button>
+            <button onclick="italic()">Italic</button>
+            <button onclick="bold()">bold</button>
+            <button onclick="Underline()">Underline</button>
+            <button onclick="H1()">H1</button>
+            <button onclick="Reverse()">Reverse</button>
+            <button onclick="Copy()">Copy</button>
+            <button onclick="Past()">Past</button>
+            <button onclick="clearText()">Clear</button>
+        </div>
+
+        <p>Words: <span id="words">0</span></p>
+        <p>Characters: <span id="chars">0</span></p>
+        <p>Line: <span id="Line">0</span></p>
     </div>
 
-    <p>Words: <span id="words">0</span></p>
-    <p>Characters: <span id="chars">0</span></p>
-</div>
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 
 </body>
+
 </html>
